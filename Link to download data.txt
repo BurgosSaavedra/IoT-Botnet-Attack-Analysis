@@ -1,0 +1,15 @@
+https://www.kaggle.com/datasets/mkashifn/nbaiot-dataset/data?select=features.csv
+
+To upload this data:
+
+1. I upload to my GCP VM through the terminal.
+
+2. Follow the approach taught on prac 8:
+Step 2: To save the files into HDFS, log into the namenode container.
+
+sudo docker exec -it container_id bash
+
+First, save the files into the local drive (in our case, nbs folder). Then run the following command to
+directly copy all files:
+
+hdfs dfs -put /home/nbs/* /
