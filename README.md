@@ -83,7 +83,7 @@ The following diagram illustrates the project workflow:
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/BurgosSaavedra/IoT-Botnet-Attack-Analysis.git
    cd your-repository
    ```
 2. Build and run the Docker containers:
